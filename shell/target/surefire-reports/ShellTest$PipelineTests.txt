@@ -1,0 +1,34 @@
+-------------------------------------------------------------------------------
+Test set: ShellTest$PipelineTests
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 0.015 s <<< FAILURE! -- in ShellTest$PipelineTests
+ShellTest$PipelineTests.testPipeline -- Time elapsed: 0.002 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO: implement Shell.Pipeline.<init>
+	at Shell$Pipeline.<init>(Shell.java:275)
+	at ShellTest$PipelineTests.testPipeline(ShellTest.java:266)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+
+ShellTest$PipelineTests.testErrorInPipeline -- Time elapsed: 0.003 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO: implement Shell.Pipeline.<init>
+	at Shell$Pipeline.<init>(Shell.java:275)
+	at ShellTest$PipelineTests.testErrorInPipeline(ShellTest.java:275)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+
+ShellTest$PipelineTests.testInvalidCommandInPipeline -- Time elapsed: 0.008 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO: implement Shell.Pipeline.<init>
+	at Shell$Pipeline.<init>(Shell.java:275)
+	at ShellTest$PipelineTests.testInvalidCommandInPipeline(ShellTest.java:287)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+

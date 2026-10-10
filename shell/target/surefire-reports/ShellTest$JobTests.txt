@@ -1,0 +1,94 @@
+-------------------------------------------------------------------------------
+Test set: ShellTest$JobTests
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 0, Errors: 9, Skipped: 0, Time elapsed: 0.021 s <<< FAILURE! -- in ShellTest$JobTests
+ShellTest$JobTests.testCommandAfterBackgroundJob -- Time elapsed: 0.002 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO: implement Shell.processInput
+	at Shell.processInput(Shell.java:138)
+	at ShellTest$JobTests.testCommandAfterBackgroundJob(ShellTest.java:318)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+
+ShellTest$JobTests.testKillJob -- Time elapsed: 0.002 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO: implement Shell.processInput
+	at Shell.processInput(Shell.java:138)
+	at ShellTest$JobTests.testKillJob(ShellTest.java:356)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+
+ShellTest$JobTests.testKill2Jobs -- Time elapsed: 0.002 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO: implement Shell.processInput
+	at Shell.processInput(Shell.java:138)
+	at ShellTest$JobTests.testKill2Jobs(ShellTest.java:365)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+
+ShellTest$JobTests.testBackgroundJob -- Time elapsed: 0.002 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO: implement Shell.Pipeline.<init>
+	at Shell$Pipeline.<init>(Shell.java:275)
+	at ShellTest$JobTests.testBackgroundJob(ShellTest.java:311)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+
+ShellTest$JobTests.testForegroundJob -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO: implement Shell.Pipeline.<init>
+	at Shell$Pipeline.<init>(Shell.java:275)
+	at ShellTest$JobTests.testForegroundJob(ShellTest.java:304)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+
+ShellTest$JobTests.testKillInvalidArgs -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO: implement Shell.processInput
+	at Shell.processInput(Shell.java:138)
+	at ShellTest$JobTests.testKillInvalidArgs(ShellTest.java:376)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+
+ShellTest$JobTests.testListJobsAfterKill -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO: implement Shell.processInput
+	at Shell.processInput(Shell.java:138)
+	at ShellTest$JobTests.testListJobsAfterKill(ShellTest.java:399)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+
+ShellTest$JobTests.testListJobs -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO: implement Shell.processInput
+	at Shell.processInput(Shell.java:138)
+	at ShellTest$JobTests.testListJobs(ShellTest.java:328)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+
+ShellTest$JobTests.testKillInvalidThenValidArg -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO: implement Shell.processInput
+	at Shell.processInput(Shell.java:138)
+	at ShellTest$JobTests.testKillInvalidThenValidArg(ShellTest.java:389)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+

@@ -1,0 +1,7 @@
+ShellTest$ForkTests.class
+ShellTest$BasicTests.class
+ShellTest$PipelineTests.class
+ShellTest$JobTests.class
+ShellTest$DirectoryTests.class
+ShellTest.class
+ShellTest$RedirectTests.class

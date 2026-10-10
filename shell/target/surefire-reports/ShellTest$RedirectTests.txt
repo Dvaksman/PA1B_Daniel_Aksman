@@ -1,0 +1,87 @@
+-------------------------------------------------------------------------------
+Test set: ShellTest$RedirectTests
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 6, Skipped: 0, Time elapsed: 0.060 s <<< FAILURE! -- in ShellTest$RedirectTests
+ShellTest$RedirectTests.testRedirectAfterCd -- Time elapsed: 0.032 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO: implement Shell.processInput
+	at Shell.processInput(Shell.java:138)
+	at ShellTest$RedirectTests.testRedirectAfterCd(ShellTest.java:448)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+
+ShellTest$RedirectTests.testRedirectIsDirectoryError -- Time elapsed: 0.003 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO: implement Shell.processInput
+	at Shell.processInput(Shell.java:138)
+	at ShellTest$RedirectTests.lambda$testRedirectIsDirectoryError$0(ShellTest.java:476)
+	at com.github.stefanbirkner.systemlambda.SystemLambda.executeWithSystemOutReplacement(SystemLambda.java:899)
+	at com.github.stefanbirkner.systemlambda.SystemLambda.tapSystemOut(SystemLambda.java:680)
+	at ShellTest$RedirectTests.testRedirectIsDirectoryError(ShellTest.java:476)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+
+ShellTest$RedirectTests.testRedirectAbsolute -- Time elapsed: 0.003 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO: implement Shell.processInput
+	at Shell.processInput(Shell.java:138)
+	at ShellTest$RedirectTests.lambda$testRedirectAbsolute$0(ShellTest.java:438)
+	at com.github.stefanbirkner.systemlambda.SystemLambda.executeWithSystemOutReplacement(SystemLambda.java:899)
+	at com.github.stefanbirkner.systemlambda.SystemLambda.lambda$tapSystemErrAndOut$0(SystemLambda.java:612)
+	at com.github.stefanbirkner.systemlambda.SystemLambda.executeWithSystemErrReplacement(SystemLambda.java:886)
+	at com.github.stefanbirkner.systemlambda.SystemLambda.tapSystemErrAndOut(SystemLambda.java:610)
+	at ShellTest$RedirectTests.testRedirectAbsolute(ShellTest.java:438)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+
+ShellTest$RedirectTests.testRedirectInMultiCommandPipeline -- Time elapsed: 0.003 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO: implement Shell.processInput
+	at Shell.processInput(Shell.java:138)
+	at ShellTest$RedirectTests.lambda$testRedirectInMultiCommandPipeline$0(ShellTest.java:459)
+	at com.github.stefanbirkner.systemlambda.SystemLambda.executeWithSystemOutReplacement(SystemLambda.java:899)
+	at com.github.stefanbirkner.systemlambda.SystemLambda.lambda$tapSystemErrAndOut$0(SystemLambda.java:612)
+	at com.github.stefanbirkner.systemlambda.SystemLambda.executeWithSystemErrReplacement(SystemLambda.java:886)
+	at com.github.stefanbirkner.systemlambda.SystemLambda.tapSystemErrAndOut(SystemLambda.java:610)
+	at ShellTest$RedirectTests.testRedirectInMultiCommandPipeline(ShellTest.java:459)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+
+ShellTest$RedirectTests.testRedirectRelative -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO: implement Shell.processInput
+	at Shell.processInput(Shell.java:138)
+	at ShellTest$RedirectTests.lambda$testRedirectRelative$0(ShellTest.java:428)
+	at com.github.stefanbirkner.systemlambda.SystemLambda.executeWithSystemOutReplacement(SystemLambda.java:899)
+	at com.github.stefanbirkner.systemlambda.SystemLambda.lambda$tapSystemErrAndOut$0(SystemLambda.java:612)
+	at com.github.stefanbirkner.systemlambda.SystemLambda.executeWithSystemErrReplacement(SystemLambda.java:886)
+	at com.github.stefanbirkner.systemlambda.SystemLambda.tapSystemErrAndOut(SystemLambda.java:610)
+	at ShellTest$RedirectTests.testRedirectRelative(ShellTest.java:428)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+
+ShellTest$RedirectTests.testRedirectNoCommand -- Time elapsed: 0.002 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO: implement Shell.processInput
+	at Shell.processInput(Shell.java:138)
+	at ShellTest$RedirectTests.lambda$testRedirectNoCommand$0(ShellTest.java:469)
+	at com.github.stefanbirkner.systemlambda.SystemLambda.executeWithSystemOutReplacement(SystemLambda.java:899)
+	at com.github.stefanbirkner.systemlambda.SystemLambda.lambda$tapSystemErrAndOut$0(SystemLambda.java:612)
+	at com.github.stefanbirkner.systemlambda.SystemLambda.executeWithSystemErrReplacement(SystemLambda.java:886)
+	at com.github.stefanbirkner.systemlambda.SystemLambda.tapSystemErrAndOut(SystemLambda.java:610)
+	at ShellTest$RedirectTests.testRedirectNoCommand(ShellTest.java:469)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+

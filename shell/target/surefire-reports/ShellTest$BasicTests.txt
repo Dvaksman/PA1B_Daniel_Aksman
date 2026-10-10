@@ -1,0 +1,60 @@
+-------------------------------------------------------------------------------
+Test set: ShellTest$BasicTests
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 1.022 s <<< FAILURE! -- in ShellTest$BasicTests
+ShellTest$BasicTests.testCommandAfterError -- Time elapsed: 1.003 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO: implement Shell.Pipeline.<init>
+	at Shell$Pipeline.<init>(Shell.java:275)
+	at ShellTest$BasicTests.lambda$interceptShell$0(ShellTest.java:71)
+	at Shell.processInput(Shell.java:138)
+	at Shell.runRepl(Shell.java:125)
+	at Shell.runRepl(Shell.java:118)
+	at com.github.stefanbirkner.systemlambda.SystemLambda.executeWithSystemErrReplacement(SystemLambda.java:886)
+	at com.github.stefanbirkner.systemlambda.SystemLambda.tapSystemErr(SystemLambda.java:543)
+	at ShellTest$BasicTests.interceptShell(ShellTest.java:107)
+	at ShellTest$BasicTests.tapShellErr(ShellTest.java:122)
+	at ShellTest$BasicTests.testCommandAfterError(ShellTest.java:179)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+
+ShellTest$BasicTests.testInvalidCommand -- Time elapsed: 0.003 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO: implement Shell.Pipeline.<init>
+	at Shell$Pipeline.<init>(Shell.java:275)
+	at ShellTest$BasicTests.lambda$interceptShell$0(ShellTest.java:71)
+	at Shell.processInput(Shell.java:138)
+	at Shell.runRepl(Shell.java:125)
+	at Shell.runRepl(Shell.java:118)
+	at com.github.stefanbirkner.systemlambda.SystemLambda.executeWithSystemErrReplacement(SystemLambda.java:886)
+	at com.github.stefanbirkner.systemlambda.SystemLambda.tapSystemErr(SystemLambda.java:543)
+	at ShellTest$BasicTests.interceptShell(ShellTest.java:107)
+	at ShellTest$BasicTests.tapShellErr(ShellTest.java:122)
+	at ShellTest$BasicTests.testInvalidCommand(ShellTest.java:166)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+
+ShellTest$BasicTests.testCommands -- Time elapsed: 0.003 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO: implement Shell.Pipeline.<init>
+	at Shell$Pipeline.<init>(Shell.java:275)
+	at ShellTest$BasicTests.lambda$interceptShell$0(ShellTest.java:71)
+	at Shell.processInput(Shell.java:138)
+	at Shell.runRepl(Shell.java:125)
+	at Shell.runRepl(Shell.java:118)
+	at com.github.stefanbirkner.systemlambda.SystemLambda.executeWithSystemOutReplacement(SystemLambda.java:899)
+	at com.github.stefanbirkner.systemlambda.SystemLambda.lambda$tapSystemErrAndOut$0(SystemLambda.java:612)
+	at com.github.stefanbirkner.systemlambda.SystemLambda.executeWithSystemErrReplacement(SystemLambda.java:886)
+	at com.github.stefanbirkner.systemlambda.SystemLambda.tapSystemErrAndOut(SystemLambda.java:610)
+	at ShellTest$BasicTests.interceptShell(ShellTest.java:105)
+	at ShellTest$BasicTests.tapShellErrAndOut(ShellTest.java:118)
+	at ShellTest$BasicTests.testCommands(ShellTest.java:159)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+

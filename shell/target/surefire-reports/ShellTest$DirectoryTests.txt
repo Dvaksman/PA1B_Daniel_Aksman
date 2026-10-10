@@ -1,0 +1,57 @@
+-------------------------------------------------------------------------------
+Test set: ShellTest$DirectoryTests
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 5, Skipped: 0, Time elapsed: 0.017 s <<< FAILURE! -- in ShellTest$DirectoryTests
+ShellTest$DirectoryTests.testCdAbsolute -- Time elapsed: 0.002 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO: implement Shell.changeDirectory
+	at Shell.changeDirectory(Shell.java:230)
+	at ShellTest$DirectoryTests.testCdAbsolute(ShellTest.java:224)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+
+ShellTest$DirectoryTests.testCdInvalidFile -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO: implement Shell.processInput
+	at Shell.processInput(Shell.java:138)
+	at ShellTest$DirectoryTests.lambda$testCdInvalidFile$0(ShellTest.java:248)
+	at com.github.stefanbirkner.systemlambda.SystemLambda.executeWithSystemErrReplacement(SystemLambda.java:886)
+	at com.github.stefanbirkner.systemlambda.SystemLambda.tapSystemErr(SystemLambda.java:543)
+	at ShellTest$DirectoryTests.testCdInvalidFile(ShellTest.java:248)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+
+ShellTest$DirectoryTests.testCdRelative -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO: implement Shell.changeDirectory
+	at Shell.changeDirectory(Shell.java:230)
+	at ShellTest$DirectoryTests.testCdRelative(ShellTest.java:231)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+
+ShellTest$DirectoryTests.testCommandCwdAfterCd -- Time elapsed: 0.002 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO: implement Shell.changeDirectory
+	at Shell.changeDirectory(Shell.java:230)
+	at ShellTest$DirectoryTests.testCommandCwdAfterCd(ShellTest.java:255)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+
+ShellTest$DirectoryTests.testCdMultiRelative -- Time elapsed: 0.002 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO: implement Shell.changeDirectory
+	at Shell.changeDirectory(Shell.java:230)
+	at ShellTest$DirectoryTests.testCdMultiRelative(ShellTest.java:242)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+
